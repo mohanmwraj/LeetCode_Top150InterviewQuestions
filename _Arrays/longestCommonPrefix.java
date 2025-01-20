@@ -62,4 +62,8 @@ public class longestCommonPrefix {
         }
         return str[0];
     }
+    /*
+        Time Complexity: O(S), where S is the sum of all characters in all string.
+        Space Complexity: O(1)
+     */
 }
