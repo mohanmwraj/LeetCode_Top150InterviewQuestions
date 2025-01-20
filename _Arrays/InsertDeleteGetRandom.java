@@ -57,4 +57,9 @@ public class InsertDeleteGetRandom {
     public int getRandom(){
         return list.get(rand.nextInt(list.size()));
     }
+
+    /*
+        Time Complexity: O(1)
+        Space Complexity: O(N)
+     */
 }
