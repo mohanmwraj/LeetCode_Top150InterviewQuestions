@@ -20,11 +20,6 @@ public class textJustification {
         * Therefore, each word contributes word.length + 1 to the line's length, except for the final word.
         * We want to add as many words as possible without exceeding maxWidth.
         *
-        *
-        *
-        *
-        *
-        *
      */
 
     public List<String> fullJustify(String[] words, int maxWidth){
