@@ -82,4 +82,9 @@ public class textJustification {
 
         return String.join(" ", line);
     }
+
+    /*
+        Time complexity: O(n⋅k)
+        Space Complexity: O(m)
+     */
 }
