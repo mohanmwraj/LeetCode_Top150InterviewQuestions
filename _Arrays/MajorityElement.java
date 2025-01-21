@@ -130,6 +130,7 @@ public class MajorityElement {
     /*
         * Approach: Boyer-Moore Voting Algorithm
         *
+        *
         * counting instances of the majority element as +1 and instances of any other element as −1,
         * summing them would make it obvious that the majority element is indeed the majority element.
      */

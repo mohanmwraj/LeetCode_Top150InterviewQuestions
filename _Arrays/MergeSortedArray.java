@@ -30,9 +30,9 @@ public class MergeSortedArray {
         Space complexity: O(n)
     */
     /*
-    Approach: Three Pointers start from the beginning
-    * Make a copy of nums1 into another array nums1copy.
-    * Use nums1copy and nums2, sort the elements and copy into nums1.
+            * Approach: Three Pointers start from the beginning
+            * Make a copy of nums1 into another array nums1copy.
+            * Use nums1copy and nums2, sort the elements and copy into nums1.
      */
     public void approach2(int[] nums1, int m, int[] nums2, int n) {
 
