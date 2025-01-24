@@ -12,6 +12,8 @@ public class RotateImage {
 
     public void rotate_1(int[][] matrix) {
         int n = matrix.length;
+        // If there is odd number of rows, we need to take care of the middle row, so (n + 1) / 2.
+        // No need to care of the middle or center column
         for (int i = 0; i < (n + 1) / 2; i++) {
             for (int j = 0; j < n / 2; j++) {
                 int temp = matrix[n - 1 - j][i];
