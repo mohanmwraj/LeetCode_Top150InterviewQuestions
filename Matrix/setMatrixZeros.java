@@ -76,6 +76,8 @@ public class setMatrixZeros {
             // For this solution we are using an additional variable for the first column
             // and using matrix[0][0] for the first row.
             if(matrix[i][0] == 0){
+                // As per the approach, if we want to mark the cell of matrix[0][0] as 0, it holds both row and col.
+                // we need to separate, if matrix[0][0] == 0, means first row is 0, isCol variable indicates first column is 0.
                 isCol = true;
             }
             for(int j = 1; j < c; ++j){
