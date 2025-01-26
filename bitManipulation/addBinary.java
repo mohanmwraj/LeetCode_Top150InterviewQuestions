@@ -48,6 +48,12 @@ public class addBinary {
     /*
         * Approach: Bit Manipulation
         *
+        * Iterator until y becomes 0.
+        * x ^ y = answer
+        * (X & Y) >> 1 = carry
+        * x = answer
+        * y = carry
+        *
      */
     public String addBinary_3(String a, String b) {
         BigInteger x = new BigInteger(a, 2);
