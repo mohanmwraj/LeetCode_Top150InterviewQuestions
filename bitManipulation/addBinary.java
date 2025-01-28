@@ -50,7 +50,7 @@ public class addBinary {
         *
         * Iterator until y becomes 0.
         * x ^ y = answer
-        * (X & Y) >> 1 = carry
+        * (X & Y) << 1 = carry
         * x = answer
         * y = carry
         *
