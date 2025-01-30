@@ -59,7 +59,7 @@ public class productOfArrayExpectItself {
 
         int R = 1;
         for(int i = len - 1; i >= 0; --i){
-            answer[i] = answer[i + 1] * R;
+            answer[i] = answer[i] * R;
             R *= nums[i];
         }
         return answer;
